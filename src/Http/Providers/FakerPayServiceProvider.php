@@ -1,6 +1,6 @@
 <?php
 
-namespace Nika\FakerPay\Providers;
+namespace Skytower0098\FakerPay\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

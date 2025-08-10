@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Nika\FakerPay\Http\Controllers\PayController;
+use Skytower0098\FakerPay\Http\Controllers\PayController;
 
 Route::prefix('fakerpay')->group(function () {
     Route::get('orders', [FakerpayController::class, 'index']);

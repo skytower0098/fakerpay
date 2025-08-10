@@ -1,17 +1,17 @@
 {
-  "name": "nika/fakerpay",
+  "name": "skytower0098/fakerpay",
   "description": "Fake Payment Package with Admin panel and API",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Nika\\FakerPay\\": "src/"
+      "Skytower0098\\FakerPay\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Nika\\FakerPay\\Providers\\FakerPayServiceProvider"
+        "Skytower0098\\FakerPay\\Providers\\FakerPayServiceProvider"
       ]
     }
   },

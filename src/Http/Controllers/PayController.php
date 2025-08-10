@@ -1,6 +1,6 @@
 <?php
 
-namespace Nika\Fakerpay\Controllers;
+namespace Skytower0098\Fakerpay\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
