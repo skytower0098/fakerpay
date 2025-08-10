@@ -1,0 +1,22 @@
+{
+  "name": "nika/fakerpay",
+  "description": "Fake Payment Package with Admin panel and API",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nika\\FakerPay\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nika\\FakerPay\\Providers\\FakerPayServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
+}
